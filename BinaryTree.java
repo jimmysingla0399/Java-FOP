@@ -83,7 +83,7 @@ class BinaryTree
         tree.insert(60); 
         tree.insert(80); 
         System.out.println("Preorder traversal of binary tree is "); 
-        tree.printPreorder(); 
+        tree.printPreorder("Preorder traversal"+ ); 
   
         System.out.println("\nInorder traversal of binary tree is "); 
         tree.printInorder(); 
